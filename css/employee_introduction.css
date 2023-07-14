@@ -1,0 +1,46 @@
+@charset 'utf-8';
+#employee section {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#employee h1 {
+    text-align: center;
+    color: #000;
+    border-bottom:  var( --mainbgcolor) 10px solid;
+    display:inline-block;
+}
+#employee #employee_listbox {
+    width:100%;
+}
+#employee #employee_listbox ul,
+#employee #employee_listbox li  {
+    margin: 0;
+    padding: 0;
+}
+#employee #employee_listbox ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#employee #employee_listbox li {
+    width: 20%;
+    list-style: none;
+    margin-right: 3%;
+}
+#employee #employee_listbox li img {
+    width: 100%;
+}
+/*四の倍数、最後の要素だけの指定*/
+#employee #employee_listbox li:nth-of-type(4n),
+#employee #employee_listbox li:last-of-type    {
+    margin-right: 0;
+}
+#employee #employee_listbox li .employee_name {
+    text-align: center;
+}
+#employee #employee_listbox li .employee_role {
+    text-align: center;
+}
+
