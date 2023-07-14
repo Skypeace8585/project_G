@@ -1,0 +1,32 @@
+@charset 'utf-8';
+
+
+:root{
+    --mainbgcolor:#1BA38E;
+    --mainmozicolor:#000000;
+}
+h1,p {
+    color: var(--mainmozicolor);
+    font-family: 'Arial', cursive;
+}
+
+.PR {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width:60%;
+    padding: 1%;
+    margin-bottom: 1%;
+    border-style: solid;
+    border-color: var(--mainbgcolor);
+    border-width: thin;
+    box-sizing: border-box;
+}
+.box p {
+    color: var(--mainmozicolor);
+    font-family: 'Arial', cursive;
+}
+

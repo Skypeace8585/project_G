@@ -2,33 +2,21 @@
 
 :root{
     --mainbgcolor:#1BA38E;
-    --mainmozicolor:#ffffff;
+    --footermozicolor:#ffffff;
 }
 
 
-footer {
-    background-color: var(--mainbgcolor);
-    padding: 30px;
-    
-
-}
-
-.footer,.foot-wrap .menu-left, .menu-center, .menu-right {
-    display: inline-block;
-    width: 20%;
-    margin: 50px auto;
-}
 
 
 .footer05 {
     background-color: var(--mainbgcolor);
-    color: var(--mainmozicolor);
+
     padding: 30px;
     font-family: 'Arial', cursive;
     }
     
     .footer05 a {
-    color: var(--mainmozicolor);
+    color: var(--footermozicolor);
     text-decoration: none;
    }
    .footer05 li a:hover {
@@ -61,7 +49,7 @@ footer {
     width: 100%;
     padding: 20px 0 0 0;
    }
-   .font-line {
+   .font-line a{
     text-decoration:underline;
     text-decoration-color: var(--mainmozicolor);
    }
