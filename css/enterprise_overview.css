@@ -1,0 +1,57 @@
+dl, dt, dd {
+    margin: 0;
+    padding: 0;
+  /*   リセットCSS（適用するサイトで定義済なら不要） */
+}
+
+.company-overview {
+    border-top: 1px solid #ddd;
+}
+
+.company-overview .item {
+    padding: 24px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+@media screen and (min-width: 560px) {
+    .company-overview .item {
+display: grid;
+/*項目名：名称の横幅比率*/
+grid-template-columns: 1fr 5fr;
+/*項目名：名称の間の余白*/
+column-gap: 32px;
+-webkit-column-gap: 32px;
+-moz-column-gap: 32px;
+    }
+}
+
+/* 横幅を指定するための要素 */
+.map-wrap {
+    max-width: 50%; /* ここに横幅を指定 */
+}
+
+  /* Google Mapを囲う要素 */
+.map {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 75%; /* 比率を4:3に固定 */
+}
+
+  /* Google Mapのiframe */
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#item-room {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item {
+width: 100%;
+}
