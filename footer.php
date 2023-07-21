@@ -4,7 +4,7 @@
 
 <div class="wrap">
   <div class="box">
-    <h1>姫神設備工業</h1>
+    <h1><a href="index.php">姫神設備工業</a></h1>
 
         <p>〒020-0102</p>
         <p>盛岡市上田字岩脇1番地27</p>

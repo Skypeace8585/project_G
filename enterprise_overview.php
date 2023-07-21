@@ -14,8 +14,9 @@
 </head>
 <body>
     <?php require 'header.php'; ?>
+    <img src="img/Himekami_company.png" alt="会社概要TOP" class="img-top">
     <h1>会社概要</h1>
-    <dl class="company-overview">
+    <div class="company-overview">
     <div class="item">
         <dt>会社名</dt>
         <dd>株式会社姫神工業</dd>
@@ -102,10 +103,10 @@
         <dt>支払方法</dt>         
         <dd>現在でのお支払いまたはお振込み(岩手銀行、盛岡信用金庫)</dd>
     </div class="item">
-    </dl>
+    </div>
 
     <h1>会社沿革</h1>
-    <dl class="company-overview">
+    <div class="company-overview">
     <div class="item">
     <dt>昭和49年 7月</dt>
     <dd>齋藤莞爾が姫神設備工業を個人創業</dd>
@@ -134,23 +135,17 @@
     <dt>令和3年12月</dt>
     <dd>長谷川優子 代表取締役就任 </dd>
     </div class="item">
-</dl>
+</div>
 
     <h1>交通アクセス</h1>     
-    <div id="map-room">
-        <div class="item">
-        <div class="map-wrap">
-                <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12270.532481580525!2d141.1498101!3d39.7478913!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f85743c88fa0a11%3A0x3856036b46a876d4!2z77yI5qCq77yJ5aer56We6Kit5YKZ5bel5qWt!5e0!3m2!1sja!2sjp!4v1689815620569!5m2!1sja!2sjp" 
+                <div class="maps">
+                    <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12270.532481580525!2d141.1498101!3d39.7478913!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f85743c88fa0a11%3A0x3856036b46a876d4!2z77yI5qCq77yJ5aer56We6Kit5YKZ5bel5qWt!5e0!3m2!1sja!2sjp!4v1689815620569!5m2!1sja!2sjp" 
                         style="border:0;" 
                         allowfullscreen="" 
                         loading="lazy" 
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
-                </div>
-            </div>
-                    </div>
-            <div class="map-list">
             <article>
             <p>所在地</p>
             <p>〒020-0102</p>
