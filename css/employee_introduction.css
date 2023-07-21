@@ -8,7 +8,7 @@
 #employee h1 {
     text-align: center;
     color: #000;
-    border-bottom:  var( --mainbgcolor) 10px solid;
+    border-bottom:  var( --mainbgcolor) 5px solid;
     display:inline-block;
 }
 #employee #employee_listbox {
