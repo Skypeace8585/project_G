@@ -1,0 +1,66 @@
+@charset 'utf-8';
+
+:root{
+    --mainbgcolor:#1BA38E;
+    --footermozicolor:#ffffff;
+}
+
+
+
+h1 {
+
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color: var(--mainbgcolor);
+}
+
+.img-top {
+    width: 100%;
+    height: 80%;
+    margin: 0,auto,auto,auto;
+}
+
+
+
+dl, dt, dd {
+    margin: 0;
+    padding: 0;
+  /*   リセットCSS（適用するサイトで定義済なら不要） */
+}
+
+.company-overview {
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid #ddd;
+}
+
+.company-overview .item {
+    padding: 24px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+@media screen and (min-width: 560px) {
+    .company-overview .item {
+display: grid;
+/*項目名：名称の横幅比率*/
+grid-template-columns: 1fr 5fr;
+/*項目名：名称の間の余白*/
+column-gap: 32px;
+-webkit-column-gap: 32px;
+-moz-column-gap: 32px;
+    }
+}
+
+.maps article{
+    display: inline-block;
+    margin: auto 10px auto;
+
+}
+.maps{
+    text-align: center;
+}
+.map{
+    width: 30%;
+    margin: auto;
+    display: inline-block;
+  }
