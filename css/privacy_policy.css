@@ -3,7 +3,7 @@
 
 :root{
     --mainbgcolor:#1BA38E;
-    --mainmozicolor:#000000;
+    --footermozicolor:#ffffff;
 }
 h1,p {
     color: var(--mainmozicolor);
