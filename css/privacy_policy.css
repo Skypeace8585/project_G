@@ -11,6 +11,7 @@ h1,p {
 }
 
 .PR {
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
