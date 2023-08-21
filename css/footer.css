@@ -10,7 +10,8 @@
 
 .footer05 {
     background-color: var(--mainbgcolor);
-
+    top: 0;
+    left: 0;
     padding: 30px;
     font-family: 'Arial', cursive;
     }

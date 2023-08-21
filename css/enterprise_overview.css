@@ -3,6 +3,8 @@
 :root{
     --mainbgcolor:#1BA38E;
     --footermozicolor:#ffffff;
+    --border-color:black;
+    --background-color:#2e2e2e;
 }
 
 
@@ -20,7 +22,16 @@ h1 {
     margin: 0,auto,auto,auto;
 }
 
-
+a {
+    border-radius: var(--corvid-border-radius,var(--rd,0));
+    bottom: 0;
+    box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: var(--trans1,--border-color .4s ease 0s,--background-color .4s ease 0s);
+}
 
 dl, dt, dd {
     margin: 0;
@@ -63,4 +74,4 @@ column-gap: 32px;
     width: 30%;
     margin: auto;
     display: inline-block;
-  }
+}
