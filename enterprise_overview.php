@@ -14,7 +14,9 @@
 <body>
     <?php require 'header.php'; ?>
     <img src="img/Himekami_company.png" alt="会社概要TOP" class="img-top">
+
     <h1>会社概要</h1>
+    
     <div class="company-overview">
     <div class="item">
         <dt>会社名</dt>
