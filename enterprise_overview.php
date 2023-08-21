@@ -1,15 +1,15 @@
-<!DOCTYdiv class="item"E html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dela+Godtic+One&family=DotGodtic16&family=Mochiy+Pop+One&family=Vollkorn+SC:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=DotGothic16&family=Mochiy+Pop+One&family=Vollkorn+SC:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/enterprise_overview.css">
-    <title>TOdiv class="item"</title>
+    <title>企業概要</title>
 </head>
 <body>
     <?php require 'header.php'; ?>
@@ -137,8 +137,8 @@
 </div>
 
     <h1>交通アクセス</h1>     
-                <div class="maps">
-                    <iframe class="map"
+        <div class="maps">
+        <iframe class="map"
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12270.532481580525!2d141.1498101!3d39.7478913!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f85743c88fa0a11%3A0x3856036b46a876d4!2z77yI5qCq77yJ5aer56We6Kit5YKZ5bel5qWt!5e0!3m2!1sja!2sjp!4v1689815620569!5m2!1sja!2sjp" 
                         style="border:0;" 
                         allowfullscreen="" 
@@ -152,8 +152,8 @@
             <p>アクセス:</p>
             <p>厨川駅から車で9分</P>
             <p>松園ターミナルから徒歩５分</P>
-                </article>
-                    </div>
+            </article>
+            </div>
         <?php require 'footer.php'; ?>
 </body>
 </html>
