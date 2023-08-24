@@ -3,14 +3,10 @@
 :root{
     --mainbgcolor:#1BA38E;
     --footermozicolor:#ffffff;
-    --border-color:black;
-    --background-color:#2e2e2e;
 }
 
-
-
-h1 {
-
+.company-h1 h1 {
+    size: 2.5rem;
     text-align: center;
     text-decoration:underline;
     text-decoration-color: var(--mainbgcolor);
@@ -22,21 +18,10 @@ h1 {
     margin: 0,auto,auto,auto;
 }
 
-a {
-    border-radius: var(--corvid-border-radius,var(--rd,0));
-    bottom: 0;
-    box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    transition: var(--trans1,--border-color .4s ease 0s,--background-color .4s ease 0s);
-}
-
 dl, dt, dd {
     margin: 0;
     padding: 0;
-  /*   リセットCSS（適用するサイトで定義済なら不要） */
+
 }
 
 .company-overview {
@@ -44,6 +29,7 @@ dl, dt, dd {
     margin: auto;
     border-top: 1px solid #ddd;
 }
+
 
 .company-overview .item {
     padding: 24px 0;

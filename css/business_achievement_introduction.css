@@ -42,6 +42,12 @@ h2{
     text-align: center;
 }
 
+.Businesses {
+    margin: 1rem;
+    border: 1px solid var(--mainbgcolor);
+
+}
+
 .Recruit a {
     top: 50%;
     right: 0;
@@ -126,7 +132,7 @@ button {
 
 
     h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         text-align: center;
         text-decoration:underline;
         text-decoration-color: var(--mainbgcolor);

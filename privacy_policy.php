@@ -8,12 +8,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/privacy_policy.css">
-    <title>Document</title>
+    <title>個人情報保護方針</title>
 </head>
 <body>
 <?php require 'header.php'; ?>
 
-<title>個人情報保護方針</title>
 <div class="PR">
 <h2>プライバシーポリシー</h2>
         <div class="box">

@@ -12,7 +12,7 @@
     background-color: var(--mainbgcolor);
     top: 0;
     left: 0;
-    padding: 30px;
+    padding: 0;
     font-family: 'Arial', cursive;
     }
     
@@ -20,6 +20,7 @@
     color: var(--footermozicolor);
     text-decoration: none;
    }
+   
    .footer05 li a:hover {
     text-decoration: underline;
    }
