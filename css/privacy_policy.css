@@ -5,9 +5,15 @@
     --mainbgcolor:#1BA38E;
     --footermozicolor:#ffffff;
 }
-h1,p {
+h1{
+    size: 2.5rem;
     color: var(--mainmozicolor);
     font-family: 'Arial', cursive;
+}
+p{
+    color: var(--mainmozicolor);
+    font-family: 'Arial', cursive;
+
 }
 
 .PR {
