@@ -168,6 +168,5 @@
         </div>
     </div>
     <?php require 'footer.php'; ?>
-    <script src="js/index.js"></script>
 </body>
 </html>
