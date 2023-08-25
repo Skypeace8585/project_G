@@ -21,118 +21,103 @@ body{
     left: auto;
     right: 10px;
 }
-.fixed_button a{
-    text-decoration: none;
-    display: block;
-    height: 40px;
-    width: 60px;
+.fixed_button_top{
+    position: relative;
+}
+
+.triangle_s{
+    position: absolute;
+    z-index: 20;
+    bottom: 7px;
+    left: 3px;
+    border-right: 45px solid transparent;
+    border-bottom: 78.6025px solid var(--mainbgcolor);
+    border-left: 45px solid transparent;
+}
+
+.triangle{
+    position: absolute;
+    z-index: 22;
+    bottom: 10px;
+    left: 8px;
+    border-right: 40px solid transparent;
+    border-bottom: 70.6025px solid #fff;
+    border-left: 40px solid transparent;
+}
+
+.fixed_button_top p{
+    width: 100px;
+    color: var(--mainbgcolor);
+    position: absolute;
+    z-index: 24;
+    bottom: 5px;
+    left: 20px;
+}
+
+.q_click{
+    display: inline-block;
+    background-color: var(--mainbgcolor);
+    color: #fff;
+    border: 1px solid #fff;
+    width: 90px;
+    height: 55px;
+    border-radius: 50%;
+    padding: 35px 5px 5px 5px;
+    cursor: pointer;
+}
+.q_click:hover{
     color: var(--mainbgcolor);
     background-color: #fff;
-    padding-top: 20px;
-    border-radius: 50%;
     border: 1px solid var(--mainbgcolor);
-    /* border-right: 50px solid transparent;
-    border-bottom: 86.6025px solid #b2ce54;
-    border-left: 50px solid transparent;  */
-}
-.fixed_button a:hover{
-    background-color: var(--mainbgcolor);
-    color: #fff;
 }
 
-.fixed_button_list {
-    width: 100px;
-    height: 100px;
-    margin: 0;
+.q_click_menu_non{
+    display: none;
+}
+
+.q_click_menu_left{
+    z-index: 900;
+    text-decoration: none;
+    position: fixed;
+    bottom: 40px;
+    left: auto;
+    right: 210px;
+    height: 40px;
+    width: 60px;
+    color: #fff;
+    background-color: var(--mainbgcolor);
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 50%;
-    background-color: var(--mainbgcolor);
-    position: relative;
-    transition: all .3s;
+    border: 1px solid #fff;
 }
-.fixed_button_list:hover {
-    background-color: #135f54;
-}
-/* .fixed_button_list:not(:first-child)::before {
-    content: "";
-    width: 1px;
-    height: 80%;
+.q_click_menu_left:hover{
+    color: var(--mainbgcolor);
     background-color: #fff;
-    position: absolute;
-    top: 10%;
-    left: 0;
-    transition: all .3s;
-} */
-/* .fixed_button_list:hover::before {
-    background-color: #000;
-} */
-.fixed_button_list p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+    border: 1px solid var(--mainbgcolor);
+}
+.q_click_menu_right{
+    z-index: 900;
     text-decoration: none;
+    position: fixed;
+    bottom: 40px;
+    left: auto;
+    right: 120px;
+    height: 40px;
+    width: 60px;
     color: #fff;
-    font-size: 1rem;
-    letter-spacing: 0.05em;
-    font-weight: 600;
-    transition: all .3s;
-}
-.fixed_button_list:hover p {
-    color: #fff;
-}
-
-.fixed_button_menus {
-    padding-left: 0;
-    display: none;/*デフォルトでは非表示の状態にしておく*/
-    width: 100%;
-    position: absolute;
-    top: var(--headerheight);
-    left: 0;
-}
-.fixed_button_list:hover .fixed_button_menus {
-    display: block;/*Gナビメニューにホバーしたら表示*/
-    right: 20px;
-    bottom: 0;
-}
-.fixed_button_menu {
-    list-style: none;
-    background-color: var(--mainbgtransparentcolor);
-    height: var(--headerheight);
-    transition: all .3s;
-    position: relative;
-}
-.fixed_button_menu:not(:first-child)::before{
-    content: "";
-    width: 100%;
-    height: 1px;
     background-color: var(--mainbgcolor);
-    position: absolute;
-    top: 0;
-    left: 0;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+    border: 1px solid #fff;
 }
-.fixed_button_menu:hover {
-    background-color: rgba(27, 163, 142, 1);
-}
-.fixed_button_menu a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    text-decoration: none;
-    position: relative;
-}
-.fixed_button_menu a::before {
-    content: '';
-    display: block;
-    width: 6px;
-    height: 6px;
-    border-top: 2px solid #fff;
-    border-left: 2px solid #fff;
-    transform: rotate(135deg);
-    position: absolute;
-    right: 15px;
-    top: calc(50% - 5px);
+.q_click_menu_right:hover{
+    color: var(--mainbgcolor);
+    background-color: #fff;
+    border: 1px solid var(--mainbgcolor);
 }
 
 main{
@@ -220,14 +205,13 @@ h1{
 }
 
 .content{
-    margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .content1{
     margin-top: 80px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     width: 60%;
 }
 
@@ -248,6 +232,7 @@ h1{
 }
 
 .content2{
+    margin-bottom: 80px;
 }
 
 .content2_img{
@@ -262,6 +247,7 @@ figure.hover-parent {
     border-radius: 30px;
     border: 2px solid var(--mainbgcolor);
     position: relative;
+    z-index: 2;
     margin-bottom: 30px;
     overflow: hidden;
 }
@@ -304,6 +290,7 @@ figure.hover-parent:hover .hover-mask {
 
 .content3{
     width: 60%;
+    margin-bottom: 80px;
 }
 
 .content3_title{
@@ -461,22 +448,25 @@ input:checked ~ .in img,input:checked ~ .in span::before{
 
 .content4{
     width: 80%;
+    margin-bottom: 80px;
 }
 
 .content4 p{
     text-align: left;
     background-color: #fff;
     border: 2px solid var(--mainbgcolor);
-    height: 50px;
+    height: auto;
     border-radius: 50px;
     display: block;
-    padding: 5px 0 5px 40px;
+    padding: 20px 0 20px 40px;
+    
 }
 
 .content5{
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
+    margin-bottom: 80px;
 }
 
 .content5_1 p{
@@ -493,14 +483,15 @@ input:checked ~ .in img,input:checked ~ .in span::before{
 
 .content6{
     width: 80%;
+    margin-bottom: 120px;
 }
 
 .content6 p{
     display: block;
     background-color: #fff;
     border: 3px solid var(--mainbgcolor);
-    height: 50px;
+    height: auto;
     border-radius: 50px;
     text-align: left;
-    padding: 5px 0 5px 40px;
+    padding: 15px 0 15px 40px;
 }
