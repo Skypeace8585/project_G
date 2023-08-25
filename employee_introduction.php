@@ -9,6 +9,7 @@
     <title>従業員紹介ページ</title>
 </head>
 <body id="employee">
+    <?php require 'header.php'; ?>
     <section>
     <h1>従業員紹介</h1>
     <div id="employee_listbox">
@@ -72,6 +73,6 @@
         </ul>
     </div>
     </section>
-    
+    <?php require 'footer.php'; ?>
 </body>
 </html>
