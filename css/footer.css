@@ -5,7 +5,9 @@
     --footermozicolor:#ffffff;
 }
 
-
+.fotterP {
+    color: var(--footermozicolor);
+}
 
 
 .footer05 {
@@ -25,8 +27,8 @@
     text-decoration: underline;
    }
    .footer05 .wrap {
-    width: 900px;
-    margin: 0 auto;
+    width: 100rem;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -35,15 +37,19 @@
     margin: 0 0 10px 0;
     padding: 0;
    }
+   .footer05 .wrap h2 {
+    color: var(--footermozicolor);    
+}
    .footer05 .wrap p {
     margin: 0;
     padding: 0 0 20px 0;
    }
    .footer05 .wrap .box {
-    width: 22%;
+    margin: auto;
+
    }
    .footer05 .wrap .box ul {
-    margin: 0;
+    margin: auto;
     padding: 0 0 20px 0;
     list-style: none;
    }

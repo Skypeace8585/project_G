@@ -6,11 +6,11 @@
   <div class="box">
     <h1><a href="index.php">姫神設備工業</a></h1>
 
-        <p>〒020-0102</p>
-        <p>盛岡市上田字岩脇1番地27</p>
-        <p>(盛岡テクノパーク企業団地内)</p>
-        <p>TEL:019-661-8356</P>
-        <p>FAX:019-661-8329</P>
+        <p class="fotterP">〒020-0102</p>
+        <p class="fotterP">盛岡市上田字岩脇1番地27</p>
+        <p class="fotterP">(盛岡テクノパーク企業団地内)</p>
+        <p class="fotterP">TEL:019-661-8356</P>
+        <p class="fotterP">FAX:019-661-8329</P>
 
       <ul class="footer__navi">
     <li><a href="#">Facebook</a></li>

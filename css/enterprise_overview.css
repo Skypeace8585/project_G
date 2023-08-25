@@ -5,6 +5,13 @@
     --footermozicolor:#ffffff;
 }
 
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color: var(--mainbgcolor);
+}
+
 .company-h1 h1 {
     size: 2.5rem;
     text-align: center;
