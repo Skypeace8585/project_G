@@ -5,6 +5,9 @@
     --mainbgcolor:#1BA38E;
     --footermozicolor:#ffffff;
 }
+body{
+
+}
 h1{
     size: 2.5rem;
     color: var(--mainmozicolor);
@@ -17,13 +20,14 @@ p{
 }
 
 .PR {
-    margin: auto;
+    width:60rem;
+    margin: 3.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.box{
+.boxPR{
     width:60%;
     padding: 1%;
     margin-bottom: 1%;
@@ -32,7 +36,7 @@ p{
     border-width: thin;
     box-sizing: border-box;
 }
-.box p {
+.boxPR p {
     color: var(--mainmozicolor);
     font-family: 'Arial', cursive;
 }
