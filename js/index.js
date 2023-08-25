@@ -7,3 +7,16 @@ $("#g-nav a").click(function () {//ナビゲーションのリンクがクリッ
     $(".openbtn1").removeClass('active');//ボタンの activeクラスを除去し
     $("#g-nav").removeClass('panelactive');//ナビゲーションのpanelactiveクラスも除去
 });
+
+$(function() {
+    $(".q_click").click(function() {
+        alert('アラートのメッセージ')
+        $(".q_click_menu").slideToggle("");
+    });
+});
+
+// $(function() {
+//     $(".q_click").click(function() {
+//         $(".q_click_menu").toggleClass("q_click_menu_non");
+//     });
+// });

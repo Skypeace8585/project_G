@@ -16,12 +16,16 @@
 <body>
     <?php require 'header.php'; ?>
     <div class="fixed_button">
-        <a href="">トップへ</a>
+        <a href="#" class="fixed_button_top">
+            <div class="triangle_s"></div>
+            <div class="triangle"></div>
+            <p>トップへ</p>
+        </a>
         <div class="fixed_button_list">
-            <p>お問い合わせ</p>
-            <div class="fixed_button_menus">
-                <a href="" class="fixed_button_menu">修理箇所</a>
-                <a href="" class="fixed_button_menu">採用情報</a>
+            <p class="q_click">お問い合わせ</p>
+            <div class="q_click_menu">
+                <a href="repair_point_inquiry.php" class="q_click_menu_left">修理箇所</a>
+                <a href="Recruitment_information_inquiry.php" class="q_click_menu_right">採用情報</a>
             </div>
         </div>
     </div>
@@ -85,12 +89,12 @@
                     </figcaption>
                 </figure>
             </div>
-            <a href="" class="main_button">詳しく見る</a>
+            <a href="enterprise_overview.php" class="main_button">詳しく見る</a>
         </div>
         <div class="content content3">
             <div class="content3_grid content3_title">
                 <h1>ご依頼からの流れ</h1>
-                <a href="">実例を見る</a>
+                <a href="business_achievement_introduction.php">実例を見る</a>
             </div>
             <div class="content3_grid">
                 <div class="content3_grid_item1">
@@ -109,9 +113,9 @@
                 </div>
             </div>
             <div class="content3_button_grid">
-                <a href="" class="">水道施設・菅工事</a>
-                <a href="" class="">一般住宅ビル等の排水設備工事</a>
-                <a href="" class="">とび・土木工事</a>
+                <a href="Construction_flow.php" class="">水道施設・菅工事</a>
+                <a href="Construction_example.php" class="">一般住宅ビル等の排水設備工事</a>
+                <a href="Construction_flow2.php" class="">とび・土木工事</a>
             </div>
             <div>
                 <p>写真をクリックするとそれぞれのご依頼からの流れを詳しく見れるよ！</p>
@@ -134,13 +138,13 @@
             <h1>お客様の声</h1>
             <p>個人で依頼されたお客様の声</p>
             <p>企業さんから依頼されたお客様の声</p>
-            <p></p>
+            <p>　　</p>
         </div>
         <div class="content content5">
             <div class="content5_1">
                 <h1>採用情報</h1>
                 <p>私達と一緒に働きませんか？<br>未経験でも先輩社員が丁寧にお教えします！</p>
-                <a href="" class="main_button">詳しく見る</a>
+                <a href="Recruitment_information.php" class="main_button">詳しく見る</a>
                 <img class="content5_img1" src="img/index7.png" alt="img">
             </div>
             <div>
@@ -160,9 +164,10 @@
             <p><span>xxxx.xx.xx</span>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
             <p><span>xxxx.xx.xx</span>タイトルタイトルタイトルタイトル</p>
             <p><span>xxxx.xx.xx</span>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
-            <a href="" class="main_button">すべて</a>
+            <a href="notice_list.php" class="main_button">すべて</a>
         </div>
     </div>
     <?php require 'footer.php'; ?>
+    <script src="js/index.js"></script>
 </body>
 </html>
