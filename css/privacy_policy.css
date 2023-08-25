@@ -5,9 +5,7 @@
     --mainbgcolor:#1BA38E;
     --footermozicolor:#ffffff;
 }
-body{
 
-}
 h1{
     size: 2.5rem;
     color: var(--mainmozicolor);
@@ -20,8 +18,9 @@ p{
 }
 
 .PR {
-    width:60rem;
-    margin: 3.5rem;
+     width: 80%;
+    padding:4rem;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +28,7 @@ p{
 }
 .boxPR{
     width:60%;
-    padding: 1%;
+    padding: 1rem;
     margin-bottom: 1%;
     border-style: solid;
     border-color: var(--mainbgcolor);
